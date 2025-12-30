@@ -11,7 +11,7 @@ else:
     st.error("Missing API Key. Please configure it in Streamlit Cloud Secrets.")
     st.stop()
 
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.0-flash')
 
 # --- SYSTEM PROMPT (The logic we built) ---
 MASTER_PROMPT = """
